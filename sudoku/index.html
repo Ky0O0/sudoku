@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="Sudoku">
+	<meta name="description" content="Sudoku">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="icon/jpg" href="icon/icon.jpg">
+	<script type="text/javascript" src="script.js"></script>
+	<title>Sudoku</title>
+</head>
+<body>
+	<div id="container">
+		<div id="sudoku">
+			<div class="letters"></div>
+			<div class="letters">A</div>
+			<div class="letters">B</div>
+			<div class="letters">C</div>
+			<div class="letters">D</div>
+			<div class="letters">E</div>
+			<div class="letters">F</div>
+			<div class="letters">G</div>
+			<div class="letters">H</div>
+			<div class="letters">I</div>
+
+			<div class="number">1</div>
+
+			<div class="com" id="A1" style="background-color: #99CCFF;"></div>
+			<div class="com" id="B1" style="background-color: #99CCFF;"></div>
+			<div class="com">9</div>
+			<div class="com">5</div>
+			<div class="com" id="E1" style="background-color: #99CCFF;"></div>
+			<div class="com" id="F1" style="background-color: #99CCFF;"></div>
+			<div class="com">7</div>
+			<div class="com">6</div>
+			<div class="com">4</div>
+
+			<div class="number">2</div>
+
+			<div class="com">7</div>
+			<div class="com" id="B2" style="background-color: #99CCFF;"></div>
+			<div class="com" id="C2" style="background-color: #99CCFF;"></div>
+			<div class="com">1</div>
+			<div class="com" id="E2" style="background-color: #99CCFF;"></div>
+			<div class="com" id="F2" style="background-color: #99CCFF;"></div>
+			<div class="com">5</div>
+			<div class="com">9</div>
+			<div class="com">8</div>
+
+			<div class="number">3</div>
+
+			<div class="com" id="A3" style="background-color: #99CCFF;"></div>
+			<div class="com" id="B3" style="background-color: #99CCFF;"></div>
+			<div class="com" id="C3" style="background-color: #99CCFF;"></div>
+			<div class="com">4</div>
+			<div class="com">7</div>
+			<div class="com">9</div>
+			<div class="com" id="G3" style="background-color: #99CCFF;"></div>
+			<div class="com">3</div>
+			<div class="com">2</div>
+
+			<div class="number">4</div>
+
+			<div class="com">5</div>
+			<div class="com">6</div>
+			<div class="com" id="C4" style="background-color: #99CCFF;"></div>
+			<div class="com" id="D4" style="background-color: #99CCFF;"></div>
+			<div class="com" id="E4" style="background-color: #99CCFF;"></div>
+			<div class="com" id="F4" style="background-color: #99CCFF;"></div>
+			<div class="com" id="G4" style="background-color: #99CCFF;"></div>
+			<div class="com" id="H4" style="background-color: #99CCFF;"></div>
+			<div class="com" id="I4" style="background-color: #99CCFF;"></div>
+
+			<div class="number">5</div>
+
+			<div class="com" id="A5" style="background-color: #99CCFF;"></div>
+			<div class="com" id="B5" style="background-color: #99CCFF;"></div>
+			<div class="com" id="C5" style="background-color: #99CCFF;"></div>
+			<div class="com">6</div>
+			<div class="com" id="E5" style="background-color: #99CCFF;"></div>
+			<div class="com">7</div>
+			<div class="com">9</div>
+			<div class="com">1</div>
+			<div class="com" id="I5" style="background-color: #99CCFF;"></div>
+
+			<div class="number">6</div>
+
+			<div class="com">1</div>
+			<div class="com" id="B6" style="background-color: #99CCFF;"></div>
+			<div class="com">7</div>
+			<div class="com">2</div>
+			<div class="com">5</div>
+			<div class="com">4</div>
+			<div class="com" id="G6" style="background-color: #99CCFF;"></div>
+			<div class="com">8</div>
+			<div class="com" id="I6" style="background-color: #99CCFF;"></div>
+
+			<div class="number">7</div>
+
+			<div class="com">8</div>
+			<div class="com" id="B7" style="background-color: #99CCFF;"></div>
+			<div class="com" id="C7" style="background-color: #99CCFF;"></div>
+			<div class="com">7</div>
+			<div class="com" id="E7" style="background-color: #99CCFF;"></div>
+			<div class="com">6</div>
+			<div class="com">3</div>
+			<div class="com">4</div>
+			<div class="com">9</div>
+
+			<div class="number">8</div>
+
+			<div class="com">9</div>
+			<div class="com" id="B8" style="background-color: #99CCFF;"></div>
+			<div class="com">6</div>
+			<div class="com">3</div>
+			<div class="com" id="E8" style="background-color: #99CCFF;"></div>
+			<div class="com" id="F8" style="background-color: #99CCFF;"></div>
+			<div class="com" id="G8" style="background-color: #99CCFF;"></div>
+			<div class="com" id="H8" style="background-color: #99CCFF;"></div>
+			<div class="com" id="I8" style="background-color: #99CCFF;"></div>
+
+			<div class="number">9</div>
+
+			<div class="com" id="A9" style="background-color: #99CCFF;"></div>
+			<div class="com">7</div>
+			<div class="com">3</div>
+			<div class="com" id="D9" style="background-color: #99CCFF;"></div>
+			<div class="com" id="E9" style="background-color: #99CCFF;"></div>
+			<div class="com" id="F9" style="background-color: #99CCFF;"></div>
+			<div class="com" id="G9" style="background-color: #99CCFF;"></div>
+			<div class="com" id="H9" style="background-color: #99CCFF;"></div>
+			<div class="com">6</div>
+		</div>
+		<div id="menu">
+			<div id="select_div">
+				<select id="select">
+					<option value="1">A1</option>
+					<option value="2">B1</option>
+					<option value="3">E1</option>
+					<option value="4">F1</option>
+					<option value="5">B2</option>
+					<option value="6">C2</option>
+					<option value="7">E2</option>
+					<option value="8">F2</option>
+					<option value="9">A3</option>
+					<option value="10">B3</option>
+					<option value="11">C3</option>
+					<option value="12">G3</option>
+					<option value="13">C4</option>
+					<option value="14">D4</option>
+					<option value="15">E4</option>
+					<option value="16">F4</option>
+					<option value="17">G4</option>
+					<option value="18">H4</option>
+					<option value="19">I4</option>
+					<option value="20">A5</option>
+					<option value="21">B5</option>
+					<option value="22">C5</option>
+					<option value="23">E5</option>
+					<option value="24">I5</option>
+					<option value="25">B6</option>
+					<option value="26">G6</option>
+					<option value="27">I6</option>
+					<option value="28">B7</option>
+					<option value="29">C7</option>
+					<option value="30">E7</option>
+					<option value="31">B8</option>
+					<option value="32">E8</option>
+					<option value="33">F8</option>
+					<option value="34">G8</option>
+					<option value="35">H8</option>
+					<option value="36">I8</option>
+					<option value="37">A9</option>
+					<option value="38">D9</option>
+					<option value="39">E9</option>
+					<option value="40">F9</option>
+					<option value="41">G9</option>
+					<option value="42">H9</option>
+				</select>
+			</div>
+			<button class="btn1" onclick="number1()">1</button>
+			<button class="btn1" onclick="number2()">2</button>
+			<button class="btn1" onclick="number3()">3</button>
+			<button class="btn1" onclick="number4()">4</button>
+			<button class="btn1" onclick="number5()">5</button>
+			<button class="btn1" onclick="number6()">6</button>
+			<button class="btn1" onclick="number7()">7</button>
+			<button class="btn1" onclick="number8()">8</button>
+			<button class="btn1" onclick="number9()">9</button>
+			<button class="new_game_btn" onclick="refresh()">New Game</button>
+			<button class="check_btn" onclick="check()">Check</button>
+		</div>
+		<div id="rules">
+			<h2>Rules:</h2>
+			<p>The object of the game is to fill all empty cells with numbers 1 to 9 in such a way that each number appears only once in a column (vertical), in a row (horizontal) and in a block (3×3 cells).</p>
+		</div>
+	</div>
+</body>
+</html>
